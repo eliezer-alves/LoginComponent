@@ -9,8 +9,8 @@
 
 <template>
   <div class="w-full h-screen p-4 flex justify-center items-center">
-        <main class="w-full md:w-4/6 h-9/10 flex items-center bg-gray-100 rounded-lg font-mono">
-            <div class="h-1/3 w-1/3 p-10 grid grid-cols-1 space-y-4">
+        <main class="w-full md:w-5/6 xl:w-4/6 h-9/10 flex items-center bg-gray-100 rounded-lg font-mono">
+            <div class="w-full sm:w-1/2 md:w-1/3 p-10 grid grid-cols-1 space-y-4">
                 <!-- <img src="images/undraw/playful_cat_re_bxiu.svg" alt=""> -->
                 <span class="font-bold text-2xl">Access your account</span>
                 <div class="space-y-2">
@@ -25,7 +25,7 @@
                     <span>I don't have an account</span>
                 </a>
             </div>
-            <div class="w-2/3 p-20">
+            <div class="hidden sm:inline sm:w-1/2 md:w-2/3 p-10 md:p-20">
                 <img src="rocket.svg" alt="">
             </div>
         </main>
